@@ -49,7 +49,13 @@ IANACS - I am not a computer scientist
 There is a staggering stack of technology and modules involved here most of which I have only a very, very rough understanding if any at all. Take it with a grain of salt, send issuses an PRs
 
 
+## Understaning Linked Data
 
+To do the DBPedia excersise, some background knowledge is handy.
+Use either
+- [Pieters LDAC 2024 notebooks ](https://github.com/SSoLDAC2024/handson-querying-and-interaction)
+- [LBD notebooks in the ifcopenshell-turial I made for LDAC 2022](https://github.com/jakob-beetz/ifcopenshell-notebooks/tree/ldac-2022)    
+- [Mine from LDAC 2019](https://github.com/jakob-beetz/SummerSchoolOfLDAC/)    
 
 ## Installing prerequisites
 
@@ -69,8 +75,8 @@ Download from [Ollama Github](https://github.com/ollama/ollama)
 Download models. Let's go with some smaller ones. The 7 Billion LLama3 should do
 
 ```
-
-
+ollama pull llama3
+ollama pull nomic-embed-text
 ```
 
 If you have a particularly weak machine, you might look into even smaller ones
