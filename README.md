@@ -1,3 +1,5 @@
+
+
 # Minitutorial LLM+RAG+Ontologies for LDAC 2024
 
 A tiny tutorial for starting to find similarities between building related concepts. 
@@ -7,6 +9,9 @@ This is work in progress to pick up some of the work done in DURAARK, particular
 
 
 Back then, "all we had" where some similarity searches like Levenshtein and Jaccard distances to guess the similarities between nodes. Let's find out what LLMs can do fo us this time. 
+
+## Help during the workshop
+temporary etherpad (will be deleted in 30 days) https://yopad.eu/p/LDAC2024 
 
 ## Results
 
@@ -83,3 +88,5 @@ If you have a particularly weak machine, you might look into even smaller ones
 
 
 The langchain-Chroma part has been adapted from https://github.com/ollama/ollama/blob/main/docs/tutorials/langchainpy.md
+
+
