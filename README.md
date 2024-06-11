@@ -29,8 +29,7 @@ from langchain.chains import RetrievalQA
 qachain=RetrievalQA.from_chain_type(ollama, retriever=vectorstore.as_retriever())
 res = qachain.invoke({"query": question})
 print(res['result'])
-
-```turtle
+```
 
 which spits out
 
