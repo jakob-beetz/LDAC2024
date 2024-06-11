@@ -6,7 +6,7 @@ Created for the Summer School https://linkedbuildingdata.net/ldac2024/ in Bochum
 This is work in progress to pick up some of the work done in DURAARK, particularly the awesome ["Interlink"]( https://github.com/DURAARK/interlink/)  system by @aothms to align different vocabularies like DBPedia, Getty AAT and bSDD.
 
 
-Back then, "all we had" where some similarity searches like Levenshtein and Jaccard distances to guess the similarities between nodes. Let's find out what LLMs can do fo us this time. 
+Back then, "all we had" were some similarity searches like Levenshtein and Jaccard distances to guess the relation between nodes. Let's find out what LLMs can do fo us this time. 
 
 ## Results
 
@@ -60,12 +60,12 @@ Use either
 ## Installing prerequisites
 
 ### Conda/Python
-Based on Python, so conda/miniconda is what you need. ** I highly recommend Mamba. Like Conda, but on speed** go fetch it [here](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)
+Based on Python, so conda/miniconda is what you need. **I highly recommend Mamba. Like Conda, but on speed** go fetch it [here](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)
 
 
 ```
 conda env create -f environment.yml
-
+conda activate LDAC2024
 ```
 
 ### LLMs with OLLAMA
