@@ -87,6 +87,6 @@ ollama pull nomic-embed-text
 If you have a particularly weak machine, you might look into even smaller ones
 
 
-The langchain-Chroma part has been adapted from https://github.com/ollama/ollama/blob/main/docs/tutorials/langchainpy.md
+The langchain-Chroma part has been adapted from [here](https://github.com/ollama/ollama/blob/main/docs/tutorials/langchainpy.md)
 
 
