@@ -41,7 +41,7 @@ which spits out
 ```
 
 >[!CAUTION]
->This is a clear example of how hallucinations an pollute your data. Beaberboards are not more general than "Solid Wood". If anything this should have been `skos:narrower` . Treat all LLM results with care, calibrate, test with human in the loop!
+>This is a clear example of how hallucinations can pollute your data. Beaverboards are not more general than "Solid Wood". If anything this should have been `skos:narrower` . Treat all LLM results with care, calibrate, test with human in the loop!
 
 Which is a valid line in a turtle file. 
 Now, enjoy drawing the rest of the owl! 
