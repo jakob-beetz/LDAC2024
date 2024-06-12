@@ -1,5 +1,3 @@
-
-
 # Minitutorial LLM+RAG+Ontologies for LDAC 2024
 
 A tiny tutorial for starting to find similarities between building related concepts. 
@@ -41,6 +39,9 @@ which spits out
 ```
 <http://dbpedia.org/resource/Beaverboard> skos:broader odb:Solid_wood .
 ```
+
+>[!CAUTION]
+>This is a clear example of how hallucinations an pollute your data. Beaberboards are not more general than "Solid Wood". If anything this should have been `skos:narrower` . Treat all LLM results with care, calibrate, test with human in the loop!
 
 Which is a valid line in a turtle file. 
 Now, enjoy drawing the rest of the owl! 
